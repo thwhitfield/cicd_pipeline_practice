@@ -1,3 +1,5 @@
+"""Setup.py"""
+
 import setuptools
 
 setuptools.setup(
