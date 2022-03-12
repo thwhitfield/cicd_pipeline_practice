@@ -2,12 +2,6 @@ import pytest
 
 from my_pkg.math import add, subtract, multiply, divide
 
-def test_always_passes():
-    assert True
-    
-def test_always_fails():
-    assert False
-
 def test_add():
     assert add(2, 3) == 5
     
